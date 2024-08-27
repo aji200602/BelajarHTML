@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+ 
+.container {
+    padding: 20px;
+    max-width: 800px;
+    /* margin: 100px auto; */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+ 
+h1 {
+    color: #333;
+    text-align: center;
+}
+ 
+p {
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+ 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ 
+.navbar li {
+    display: inline;
+}
+ 
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+ 
+.navbar li a:hover {
+    background-color: #111;
+}
+ 
+form {
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+
+}
+ 
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+ 
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ 
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+ 
+form button:hover {
+    background-color: #45a049;
+}
+ 
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+ 
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 1em; /* Using relative unit */
+    text-align: left;
+}
+ 
+.student-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2rem; /* Using relative unit */
+}
+ 
+.student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+ 
+.student-table tr:hover {
+    background-color: #ddd;
+}
+ 
+.student-table td {
+    color: #333;
+    font-size: 1rem; /* Using relative unit */
+}
